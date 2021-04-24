@@ -1,5 +1,5 @@
 /* =================== */
-/* header */
+/* header top */
 /* =================== */
 
 .header-top {
@@ -8,6 +8,7 @@
 
 .nav-line {
   border-bottom: 1px solid var(--light-gray);
+  width: 70%;
 }
 
 /* =================== */
@@ -42,4 +43,33 @@ nav > a {
 
 nav > a:not(:last-child) {
   margin-right: 50px;
+}
+
+nav > a:hover {
+  text-shadow: 1px 1px 1px var(--light-gray);
+}
+
+/* =================== */
+/* header bottom */
+/* =================== */
+
+.header-bottom {
+  background-image: url(../img/bg-header.jpg);
+}
+
+.header-bottom .restaurant__title {
+  font-size: 3rem;
+  font-family: var(--spectral-font);
+  margin: 0;
+}
+
+.header-bottom .restaurant__desc {
+  width: 40%;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.header-bottom .restaurant__ad {
+  display: block;
+  font-weight: 600;
 }

@@ -21,3 +21,47 @@
   box-sizing: border-box;
   font-family: var(--roboto-font);
 }
+
+/* =================== */
+/* layers */
+/* =================== */
+
+.dark-layer {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+}
+
+/* =================== */
+/* common styles */
+/* =================== */
+
+.text-center {
+  text-align: var(--text-center);
+}
+
+.text-uc {
+  text-transform: var(--uc);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+/* =================== */
+/* button styles */
+/* =================== */
+
+.btn {
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.btn--tomato {
+  background-color: var(--tomato);
+  color: var(--white);
+  text-transform: var(--uc);
+}
