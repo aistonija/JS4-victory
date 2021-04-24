@@ -1,0 +1,31 @@
+.order-info > .dish-image {
+  height: 250px;
+  width: 300px;
+}
+
+.order-info > .dish-image > img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.order-phone {
+  width: 400px;
+  height: 350px;
+  background-color: var(--tomato);
+}
+
+.phone__info {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.phone-block {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.word {
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2px;
+}

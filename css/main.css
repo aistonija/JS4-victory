@@ -26,7 +26,7 @@
 /* layers */
 /* =================== */
 
-.dark-layer {
+.dark--layer {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
   width: 100%;
@@ -36,16 +36,24 @@
 /* common styles */
 /* =================== */
 
-.text-center {
+.text--center {
   text-align: var(--text-center);
 }
 
-.text-uc {
+.text--uc {
   text-transform: var(--uc);
 }
 
-.text-white {
+.text--white {
   color: var(--white);
+}
+
+.text--larger {
+  font-size: 1.4rem;
+}
+
+.text--smaller {
+  font-size: 0.7rem;
 }
 
 /* =================== */
@@ -55,13 +63,20 @@
 .btn {
   padding: 15px 25px;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   font-size: 0.8rem;
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 .btn--tomato {
   background-color: var(--tomato);
   color: var(--white);
+  text-transform: var(--uc);
+}
+
+.btn--white {
+  background-color: var(--white);
+  color: var(--tomato);
   text-transform: var(--uc);
 }

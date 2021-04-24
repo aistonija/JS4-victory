@@ -55,6 +55,8 @@ nav > a:hover {
 
 .header-bottom {
   background-image: url(../img/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .header-bottom .restaurant__title {

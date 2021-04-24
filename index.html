@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="css/flexbox.css" />
     <link rel="stylesheet" href="css/spacing.css" />
     <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/order-info.css" />
   </head>
   <body>
     <header>
@@ -42,14 +43,14 @@
         </nav>
       </div>
       <div class="header-bottom">
-        <div class="dark-layer p-5 text-center">
-          <span class="restaurant__ad text-uc text-white pt-4 pb-1 mt-1"
+        <div class="dark--layer p-5 text--center">
+          <span class="restaurant__ad text--uc text--white pt-4 pb-1 mt-1"
             >here you can find delecious food</span
           >
-          <h1 class="restaurant__title text-uc text-white pb-1">
+          <h1 class="restaurant__title text--uc text--white pb-1">
             asian restaurant
           </h1>
-          <p class="restaurant__desc text-white m-auto pb-1">
+          <p class="restaurant__desc text--white m-auto pb-1">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius
             perferendis obcaecati reprehenderit praesentium quidem soluta!
           </p>
@@ -57,7 +58,33 @@
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <!-- order information -->
+      <section>
+        <div class="order-info p-5 d-flex justify-center align-center">
+          <div class="dish-image">
+            <img src="img/duck-dish.jpg" alt="" />
+          </div>
+          <div class="order-phone text--center text--white text--uc p-2">
+            <h3 class="text--larger">we cook delicious</h3>
+            <div class="phone-block p-1">
+              <span class="phone__info text--uc text--white text--smaller"
+                >you can call us on:</span
+              >
+              <h4 class="phone__number text--larger m-1">+ 1234 567 8910</h4>
+            </div>
+            <div class="p-1">
+              <span class="word text--white text--uc text--smaller">or</span>
+            </div>
+            <button class="btn btn--white text--uc">order now</button>
+          </div>
+          <div class="dish-image">
+            <img src="img/meatballs-dish.jpg" alt="" />
+          </div>
+        </div>
+        <div class="meals"></div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
