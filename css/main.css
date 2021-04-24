@@ -1,10 +1,23 @@
 :root {
+  /* fonts */
+  --roboto-font: "Roboto", sans-serif;
+  --spectral-font: "Spectral", serif;
+  /* main colors */
   --white: rgb(255, 255, 255);
   --lavender: rgb(234, 240, 255);
-  --light-tomato: rgb(243, 130, 111);
   --tomato: rgb(242, 116, 95);
-  --dark: rgb(43, 52, 59);
-  --dark-blue: rgb(54, 62, 80);
-  --grey: rgb(154, 154, 154);
-  --white-layer: rgba(250, 250, 250, 0.9);
+  --light-gray: rgb(214, 214, 214);
+  --gray: rgb(154, 154, 154);
+  --dark-gray: rgb(54, 62, 80);
+  /* Layer */
+  --price-layer: rgba(250, 250, 250, 0.9);
+  /* text */
+  --uc: uppercase;
+  --text-center: center;
+  --decor-none: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--roboto-font);
 }

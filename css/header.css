@@ -1,7 +1,45 @@
-header {
-  font-family: "Spectral", serif;
+/* =================== */
+/* header */
+/* =================== */
+
+.header-top {
+  background-color: var(--lavender);
 }
 
-footer {
-  font-family: "Roboto", sans-serif;
+.nav-line {
+  border-bottom: 1px solid var(--light-gray);
+}
+
+/* =================== */
+/* header - website name */
+/* =================== */
+
+.website-name {
+  text-align: var(--text-center);
+}
+
+.website-name > span {
+  font-family: var(--spectral-font);
+  font-style: italic;
+  font-size: 2.8rem;
+}
+
+/* =================== */
+/* header - navigation */
+/* =================== */
+
+nav {
+  text-align: var(--text-center);
+}
+
+nav > a {
+  line-height: 1.5;
+  text-transform: var(--uc);
+  text-decoration: var(--decor-none);
+  color: var(--dark-gray);
+  font-size: 0.8rem;
+}
+
+nav > a:not(:last-child) {
+  margin-right: 50px;
 }
