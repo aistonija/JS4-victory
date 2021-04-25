@@ -48,12 +48,20 @@
   color: var(--white);
 }
 
+.text--tomato {
+  color: var(--tomato);
+}
+
 .text--larger {
   font-size: 1.4rem;
 }
 
 .text--smaller {
   font-size: 0.7rem;
+}
+
+.decor--none {
+  text-decoration: none;
 }
 
 /* =================== */

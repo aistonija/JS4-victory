@@ -34,11 +34,15 @@
   position: relative;
 }
 
-.price {
+.price,
+.blog__date {
   background-color: var(--price-layer);
   color: var(--tomato);
   font-size: 1.2rem;
   padding: 10px 15px;
+}
+
+.inner-img > .price {
   position: absolute;
   bottom: 0;
   right: 0;
