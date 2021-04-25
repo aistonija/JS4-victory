@@ -1,0 +1,56 @@
+.food-choices-container {
+  gap: 30px;
+  width: 90%;
+}
+
+.food-card {
+  background-color: var(--lavender);
+  width: 30%;
+}
+
+.choice__name {
+  font-size: 2rem;
+}
+
+.choice__name,
+.meal__name {
+  font-family: var(--spectral-font);
+  font-weight: 300;
+}
+
+.meal__name {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.inner-img > img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.inner-img {
+  position: relative;
+}
+
+.price {
+  background-color: var(--price-layer);
+  color: var(--tomato);
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.inner-text {
+  background-color: var(--white);
+}
+
+.meal__desc {
+  color: var(--gray);
+  font-size: 0.8rem;
+  line-height: 2;
+}

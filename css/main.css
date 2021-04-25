@@ -80,3 +80,11 @@
   color: var(--tomato);
   text-transform: var(--uc);
 }
+
+/* =================== */
+/* gray line */
+/* =================== */
+
+.gray--line {
+  border-bottom: 1px solid var(--light-gray);
+}
