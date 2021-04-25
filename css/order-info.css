@@ -1,5 +1,5 @@
 .order-info > .dish-image {
-  height: 250px;
+  height: 230px;
   width: 300px;
 }
 
@@ -10,8 +10,8 @@
 }
 
 .order-phone {
-  width: 400px;
-  height: 350px;
+  width: 350px;
+  height: 320px;
   background-color: var(--tomato);
 }
 
@@ -27,5 +27,31 @@
 .word {
   border-radius: 50%;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  padding: 2px;
+  padding: 3px;
+}
+
+/* ======================= */
+/* 4 meals block */
+/* ======================= */
+
+.meals-container {
+  width: 80%;
+}
+
+.meal-container {
+  text-align: center;
+}
+
+.meal-container > .meal__type {
+  font-family: var(--spectral-font);
+  font-size: 1.5rem;
+}
+
+.meal__image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 10px solid var(--lavender);
+  box-shadow: 0 2px 4px #fefefe;
 }
