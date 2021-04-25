@@ -1,0 +1,45 @@
+.bg-restaurant {
+  background-image: url(../img/banner1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.reservations-container {
+  width: 60%;
+}
+
+.restaurant__img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.reservations-form-container {
+  width: 50%;
+  background-color: var(--white);
+}
+
+.form__title {
+  font-family: var(--spectral-font);
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.reservations-form-container > form {
+  width: 100%;
+}
+
+select,
+input,
+.reservations-form-container > form > button {
+  margin-bottom: 1rem;
+  width: 45%;
+  padding: 15px 0;
+  border: none;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.reservations-form-container ::placeholder,
+select {
+  color: var(--gray);
+  opacity: 1;
+}
