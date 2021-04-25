@@ -1,0 +1,19 @@
+.signup-banner {
+  background-image: url(../img/event.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.signup-form > input {
+  border-radius: 3px;
+  border: none;
+  padding: 15px;
+  width: 30%;
+  background-color: var(--price-layer);
+}
+
+.signup-form > input::placeholder {
+  font-size: 0.8rem;
+}

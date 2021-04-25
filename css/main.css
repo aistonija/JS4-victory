@@ -75,6 +75,7 @@
   font-size: 0.8rem;
   font-weight: 600;
   letter-spacing: 1px;
+  cursor: pointer;
 }
 
 .btn--tomato {
@@ -87,6 +88,11 @@
   background-color: var(--white);
   color: var(--tomato);
   text-transform: var(--uc);
+}
+
+.btn--transparent {
+  background-color: transparent;
+  border: 1px solid var(--white);
 }
 
 /* =================== */
