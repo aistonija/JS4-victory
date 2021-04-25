@@ -1,0 +1,32 @@
+footer {
+  background-color: var(--dark-gray);
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+}
+
+.list__icon {
+  background-color: var(--white);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.list__icon i {
+  color: var(--dark-gray);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.copyright,
+.social-icons,
+.design {
+  width: 30%;
+  text-align: center;
+}

@@ -2,6 +2,7 @@
   background-image: url(../img/banner1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .reservations-container {
@@ -36,6 +37,10 @@ input,
   padding: 15px 0;
   border: none;
   border-bottom: 1px solid var(--light-gray);
+}
+
+option {
+  padding-left: 0;
 }
 
 .reservations-form-container ::placeholder,
